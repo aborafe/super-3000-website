@@ -1,0 +1,22 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "overrides": [
+    {
+      "files": ["app/**/page.tsx", "app/**/layout.tsx"],
+      "rules": {
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "next/navigation",
+                "importNames": ["useSearchParams", "useRouter", "usePathname"],
+                "message": "Client-only hooks must live in Client Components wrapped in <Suspense>."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

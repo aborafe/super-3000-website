@@ -1,0 +1,187 @@
+{
+  "brand": {
+    "name": "Super 3000",
+    "tagline": "Wholesale car spare parts & oils for traders"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "trader": "Trader Registration",
+    "contact": "Contact"
+  },
+  "cta": {
+    "whatsapp": "WhatsApp",
+    "browseProducts": "Browse Products",
+    "requestTrader": "Trader Registration",
+    "requestViaWhatsapp": "Request via WhatsApp",
+    "openMap": "Open in Maps",
+    "sendMessage": "Send via WhatsApp"
+  },
+  "common": {
+    "wholesaleOnly": "Wholesale only — for traders",
+    "noRetail": "Preview only. No retail sales or public pricing.",
+    "fastDelivery": "Fast delivery",
+    "trustedQuality": "Trusted quality",
+    "directDealing": "Direct dealing",
+    "contactUs": "Contact us"
+  },
+  "home": {
+    "heroTitle": "Super 3000 – Wholesale spare parts & engine oils",
+    "heroSubtitle": "Since 1975 | Imported under our name | Nationwide coverage",
+    "heroNote": "Traders only — no retail sales or public pricing.",
+    "featuresTitle": "Why Super 3000",
+    "features": [
+      { "title": "Wholesale focus", "desc": "We serve wholesale traders only." },
+      { "title": "Trusted quality", "desc": "Sourced options that fit the market." },
+      { "title": "Fast delivery", "desc": "Quick preparation and dispatch." },
+      { "title": "Direct dealing", "desc": "WhatsApp direct, no middleman." }
+    ],
+    "categoriesTitle": "Product categories",
+    "howTitle": "How it works",
+    "howSteps": [
+      { "title": "Browse products", "desc": "Review categories and options." },
+      { "title": "WhatsApp us", "desc": "Send quantities and specs." },
+      { "title": "Confirm & deliver", "desc": "We confirm availability and delivery time." }
+    ],
+    "trustTitle": "Trusted by traders",
+    "trustItems": [
+      "Committed to quantities and timing",
+      "Market-ready options",
+      "Origin and quality variants for every need"
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "heroTitle": "Over 50 years of expertise in car spare parts",
+    "heroSubtitle": "Founded in 1975 — importing under our own name with Super 3000 engine oil for wholesale traders.",
+    "facts": [
+      "Founded in 1975",
+      "50+ years in spare parts & engine oils",
+      "Import under our own name",
+      "Not distributors for any external brand",
+      "Super 3000 engine oil brand"
+    ],
+    "timelineTitle": "Our story",
+    "timeline": [
+      { "year": "1975", "title": "Company founded", "desc": "Started as a wholesale supplier of car spare parts." },
+      { "year": "1990s–2010s", "title": "Growth & specialization", "desc": "Expanded imports and diversified origins to meet market demand." },
+      { "year": "Today", "title": "Nationwide operations", "desc": "Supplying traders across all Egyptian governorates." }
+    ],
+    "differentiatorsTitle": "What makes us different",
+    "differentiators": [
+      "Independent importer with our own name",
+      "No intermediaries or external brand distribution",
+      "Wholesale-only, trader-focused",
+      "Quality control on every shipment",
+      "Long-term trader relationships"
+    ],
+    "expertiseTitle": "Products & expertise focus",
+    "expertise": [
+      { "title": "Peugeot spare parts", "desc": "Core segment with depth in fast-moving items." },
+      { "title": "Japanese cars", "desc": "Popular models with consistent availability." },
+      { "title": "Trucks & commercial vehicles", "desc": "Parts for heavy-duty use and fleets." },
+      { "title": "Super 3000 engine oil", "desc": "Manufactured and branded under our name." }
+    ],
+    "coverageTitle": "From Alexandria to Aswan",
+    "coverageSubtitle": "We serve traders across all Egyptian governorates with reliable logistics.",
+    "ctaTitle": "Ready to work with us as a trader?",
+    "ctaButton": "Contact us as a trader"
+  },
+  "products": {
+    "title": "Product preview",
+    "intro": "No public pricing. Traders only — request details via WhatsApp.",
+    "filtersTitle": "Search & filters",
+    "searchPlaceholder": "Search by product name",
+    "filterCategory": "Category",
+    "filterOrigin": "Origin",
+    "filterMake": "Make",
+    "filterModel": "Model",
+    "filterYear": "Year",
+    "findByCarTitle": "Find by car",
+    "clearFilters": "Clear filters",
+    "noResults": "No matching results right now.",
+    "originLabels": {
+      "Korean": "Korean",
+      "Chinese": "Chinese",
+      "Thai": "Thai"
+    }
+  },
+  "product": {
+    "back": "Back to products",
+    "variantsTitle": "Variants & origins",
+    "compatibilityTitle": "Compatibility"
+  },
+  "trader": {
+    "title": "Trader registration",
+    "intro": "Register to speed up communication and access special deals later.",
+    "approvalNote": "Traders will be approved for special deals later.",
+    "privateNote": "Special discounts may be private and not visible to others.",
+    "form": {
+      "businessName": "Business name",
+      "contactPerson": "Contact person",
+      "phone": "Phone",
+      "city": "City",
+      "taxRecord": "Tax record (optional)",
+      "notes": "Additional notes"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Traders only — WhatsApp is the fastest way to reach us.",
+    "noteB2B": "Wholesale only for traders",
+    "cardsTitle": "Contact channels",
+    "cards": {
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "whatsappDesc": "Fast inquiries and orders from traders.",
+      "emailDesc": "For wholesale requests and documentation.",
+      "addressDesc": "Nabaroh center, Dakahlia."
+    },
+    "mapTitle": "Our location",
+    "mapSubtitle": "Open Google Maps for directions to our branch in Nabaroh.",
+    "mapCta": "Open Google Maps",
+    "mapLabel": "Nabaroh - Dakahlia",
+    "locationTitle": "Location & Map",
+    "formTitle": "Send a WhatsApp inquiry",
+    "formNoteTitle": "Wholesale policy",
+    "formNote": "We only serve traders and wholesale orders. Include quantities and governorate for a fast response.",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "city": "City / Governorate",
+      "message": "Your message",
+      "phoneHint": "Enter a valid phone number (numbers, +, or -).",
+      "phoneError": "Please enter a valid phone number."
+    }
+  },
+  "footer": {
+    "hoursTitle": "Working hours",
+    "hoursValue": "Sat - Thu: 10:00 AM - 8:00 PM",
+    "rights": "All rights reserved mohamed aborafe"
+  },
+  "meta": {
+    "home": {
+      "title": "Super 3000 | Wholesale spare parts & oils for traders",
+      "description": "Super 3000 supplies wholesale car spare parts and oils for traders in Egypt. Direct WhatsApp contact and fast service."
+    },
+    "about": {
+      "title": "About | Super 3000",
+      "description": "Learn about Super 3000 and our mission to serve wholesale traders."
+    },
+    "products": {
+      "title": "Products | Super 3000",
+      "description": "Preview our wholesale spare parts & oils catalog. Request via WhatsApp."
+    },
+    "trader": {
+      "title": "Trader registration | Super 3000",
+      "description": "Register as a trader to access faster support and special deals later."
+    },
+    "contact": {
+      "title": "Contact | Super 3000",
+      "description": "Contact Super 3000 via WhatsApp or email. Located in Nabaroh, Dakahlia."
+    }
+  }
+}

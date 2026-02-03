@@ -1,0 +1,377 @@
+[
+  {
+    "id": "oil-5w30-premium",
+    "name_ar": "زيت محرك 5W-30 بريميوم",
+    "name_en": "5W-30 Premium Engine Oil",
+    "category": "oils",
+    "image": "/products/oil.svg",
+    "description_ar": "ثبات عالي في درجات الحرارة وحماية للمحرك.",
+    "description_en": "High temperature stability with strong engine protection.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "OIL-KR-530",
+        "note_ar": "مناسب للاستخدام اليومي",
+        "note_en": "Ideal for daily use"
+      },
+      {
+        "origin": "Thai",
+        "sku": "OIL-TH-530",
+        "note_ar": "مستوى إضافات عالي",
+        "note_en": "Enhanced additive package"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      },
+      {
+        "make": "Kia",
+        "model": "Cerato",
+        "years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2017
+        ]
+      }
+    ]
+  },
+  {
+    "id": "filter-oil-hyundai",
+    "name_ar": "فلتر زيت هيونداي",
+    "name_en": "Hyundai Oil Filter",
+    "category": "filters",
+    "image": "/products/oil-filter.svg",
+    "description_ar": "ترشيح دقيق لإطالة عمر الزيت.",
+    "description_en": "Fine filtration that extends oil life.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "FIL-KR-HY",
+        "note_ar": "مطابقة للمواصفات الأصلية",
+        "note_en": "OEM spec match"
+      },
+      {
+        "origin": "Chinese",
+        "sku": "FIL-CN-HY",
+        "note_ar": "حل اقتصادي للتجار",
+        "note_en": "Cost-effective trade option"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Hyundai",
+        "model": "Accent",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      },
+      {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "years": [
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ]
+      }
+    ]
+  },
+  {
+    "id": "belt-timing-kit",
+    "name_ar": "طقم سير كاتينة",
+    "name_en": "Timing Belt Kit",
+    "category": "belts",
+    "image": "/products/timing-belt.svg",
+    "description_ar": "سير قوي مع شداد لضمان أداء ثابت.",
+    "description_en": "Durable belt with tensioner for stable performance.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "BELT-KR-TK",
+        "note_ar": "عمر تشغيلي طويل",
+        "note_en": "Long service life"
+      },
+      {
+        "origin": "Thai",
+        "sku": "BELT-TH-TK",
+        "note_ar": "مستوى ضوضاء منخفض",
+        "note_en": "Low noise performance"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Toyota",
+        "model": "Corolla",
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014
+        ]
+      },
+      {
+        "make": "Nissan",
+        "model": "Sunny",
+        "years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2017
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brake-pads-front",
+    "name_ar": "تيل فرامل أمامي",
+    "name_en": "Front Brake Pads",
+    "category": "brake",
+    "image": "/products/brake-pads.svg",
+    "description_ar": "ثبات عالي وكفاءة في التوقف.",
+    "description_en": "Stable stopping power with consistent friction.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "BRK-KR-FP",
+        "note_ar": "تحكم أفضل في الحرارة",
+        "note_en": "Better heat control"
+      },
+      {
+        "origin": "Chinese",
+        "sku": "BRK-CN-FP",
+        "note_ar": "مستوى مناسب للتجار",
+        "note_en": "Balanced trade option"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Hyundai",
+        "model": "Tucson",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      },
+      {
+        "make": "Kia",
+        "model": "Sportage",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      }
+    ]
+  },
+  {
+    "id": "engine-mount",
+    "name_ar": "قاعدة محرك",
+    "name_en": "Engine Mount",
+    "category": "engine",
+    "image": "/products/engine-mount.svg",
+    "description_ar": "تقليل الاهتزازات وثبات للمحرك.",
+    "description_en": "Reduces vibration and stabilizes the engine.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "ENG-KR-EM",
+        "note_ar": "مطاط عالي التحمل",
+        "note_en": "High durability rubber"
+      },
+      {
+        "origin": "Thai",
+        "sku": "ENG-TH-EM",
+        "note_ar": "مناسب للطلبات الكبيرة",
+        "note_en": "Great for bulk orders"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Chevrolet",
+        "model": "Lanos",
+        "years": [
+          2008,
+          2009,
+          2010,
+          2011,
+          2012
+        ]
+      },
+      {
+        "make": "Nissan",
+        "model": "Sentra",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spark-plugs",
+    "name_ar": "بوجيهات أداء",
+    "name_en": "Performance Spark Plugs",
+    "category": "electrical",
+    "image": "/products/spark-plug.svg",
+    "description_ar": "اشتعال ثابت وتحسين استهلاك الوقود.",
+    "description_en": "Stable ignition with improved fuel efficiency.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "ELC-KR-SP",
+        "note_ar": "ثبات في الأداء",
+        "note_en": "Consistent output"
+      },
+      {
+        "origin": "Chinese",
+        "sku": "ELC-CN-SP",
+        "note_ar": "بديل اقتصادي",
+        "note_en": "Economic alternative"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Toyota",
+        "model": "Yaris",
+        "years": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ]
+      },
+      {
+        "make": "Hyundai",
+        "model": "Accent",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      }
+    ]
+  },
+  {
+    "id": "suspension-bushings",
+    "name_ar": "جلب عفشة",
+    "name_en": "Suspension Bushings",
+    "category": "suspension",
+    "image": "/products/suspension.svg",
+    "description_ar": "امتصاص صدمات وثبات على الطريق.",
+    "description_en": "Shock absorption with road stability.",
+    "variants": [
+      {
+        "origin": "Thai",
+        "sku": "SUS-TH-BU",
+        "note_ar": "مرونة عالية",
+        "note_en": "High flexibility"
+      },
+      {
+        "origin": "Chinese",
+        "sku": "SUS-CN-BU",
+        "note_ar": "حل اقتصادي للتجار",
+        "note_en": "Budget-friendly trade option"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Kia",
+        "model": "Cerato",
+        "years": [
+          2013,
+          2014,
+          2015,
+          2016,
+          2017
+        ]
+      },
+      {
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "years": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ]
+      }
+    ]
+  },
+  {
+    "id": "air-filter",
+    "name_ar": "فلتر هواء",
+    "name_en": "Air Filter",
+    "category": "filters",
+    "image": "/products/air-filter.svg",
+    "description_ar": "تنقية أفضل للهواء وحماية للمحرك.",
+    "description_en": "Cleaner airflow with engine protection.",
+    "variants": [
+      {
+        "origin": "Korean",
+        "sku": "FIL-KR-AF",
+        "note_ar": "جودة ثابتة",
+        "note_en": "Consistent quality"
+      },
+      {
+        "origin": "Thai",
+        "sku": "FIL-TH-AF",
+        "note_ar": "تدفق هواء أعلى",
+        "note_en": "Higher airflow"
+      }
+    ],
+    "compatibleCars": [
+      {
+        "make": "Hyundai",
+        "model": "Tucson",
+        "years": [
+          2016,
+          2017,
+          2018,
+          2019,
+          2020
+        ]
+      },
+      {
+        "make": "Toyota",
+        "model": "Corolla",
+        "years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014
+        ]
+      }
+    ]
+  }
+]

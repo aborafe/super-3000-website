@@ -1,0 +1,9 @@
+[
+  { "id": "oils", "name_ar": "زيوت", "name_en": "Oils" },
+  { "id": "filters", "name_ar": "فلاتر", "name_en": "Filters" },
+  { "id": "belts", "name_ar": "سيور", "name_en": "Belts" },
+  { "id": "brake", "name_ar": "فرامل", "name_en": "Brake Parts" },
+  { "id": "engine", "name_ar": "قطع محرك", "name_en": "Engine Parts" },
+  { "id": "electrical", "name_ar": "كهرباء", "name_en": "Electrical" },
+  { "id": "suspension", "name_ar": "تعليق وعفشة", "name_en": "Suspension" }
+]
