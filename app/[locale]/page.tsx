@@ -7,6 +7,7 @@ import { resolveLocale } from '@/i18n';
 import { buildMetadata } from '@/lib/seo';
 import { buildWhatsappLink } from '@/lib/whatsapp';
 import Reveal from '@/components/Reveal';
+import HeroSection from '@/components/HeroSection';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -25,50 +26,43 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <div className="pb-6">
-      <section className="hero-shell">
-        <div className="hero-bg" aria-hidden="true" />
-        <div className="hero-lines" aria-hidden="true" />
-        <div className="section-pad relative pb-16 pt-24 sm:pb-20 sm:pt-28">
-          <div className="grid items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-            <div>
-              <div
-                className="fade-rise inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-white"
-                style={{ animationDelay: '0ms' }}
-              >
-                {t('common.wholesaleOnly')}
-              </div>
-              <h1
-                className="fade-rise mt-4 text-3xl font-semibold text-white sm:text-4xl lg:text-5xl"
-                style={{ animationDelay: '60ms' }}
-              >
-                {t('home.heroTitle')}
-              </h1>
-              <p className="fade-rise mt-3 text-lg text-white/80" style={{ animationDelay: '110ms' }}>
-                {t('home.heroSubtitle')}
-              </p>
-              <p className="fade-rise mt-3 text-sm text-white/70" style={{ animationDelay: '150ms' }}>
-                {t('home.heroNote')}
-              </p>
-              <div className="fade-rise mt-6 flex flex-wrap items-center gap-3" style={{ animationDelay: '200ms' }}>
-                <a className="btn-primary" href={buildWhatsappLink()}>
-                  {t('cta.whatsapp')}
-                </a>
-                <Link className="btn-outline-light" href={`/${activeLocale}/products`}>
-                  {t('cta.browseProducts')}
-                </Link>
-              </div>
+      <HeroSection>
+        <div className="grid items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <div
+              className="fade-rise inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-white"
+              style={{ animationDelay: '0ms' }}
+            >
+              {t('common.wholesaleOnly')}
             </div>
-            <div className="fade-rise rounded-2xl border border-white/15 bg-white/5 p-6 text-white" style={{ animationDelay: '120ms' }}>
-              <div className="text-sm font-semibold text-white">{t('common.noRetail')}</div>
-              <ul className="mt-4 space-y-2 text-sm text-white/80">
-                <li>• {t('common.fastDelivery')}</li>
-                <li>• {t('common.trustedQuality')}</li>
-                <li>• {t('common.directDealing')}</li>
-              </ul>
+            <h1 className="mt-4 text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
+              {t('home.heroTitle')}
+            </h1>
+            <p className="fade-rise mt-3 text-lg text-white/80" style={{ animationDelay: '110ms' }}>
+              {t('home.heroSubtitle')}
+            </p>
+            <p className="fade-rise mt-3 text-sm text-white/70" style={{ animationDelay: '150ms' }}>
+              {t('home.heroNote')}
+            </p>
+            <div className="fade-rise mt-6 flex flex-wrap items-center gap-3" style={{ animationDelay: '200ms' }}>
+              <a className="btn-primary" href={buildWhatsappLink()}>
+                {t('cta.whatsapp')}
+              </a>
+              <Link className="btn-outline-light" href={`/${activeLocale}/products`}>
+                {t('cta.browseProducts')}
+              </Link>
             </div>
           </div>
+          <div className="fade-rise rounded-2xl border border-white/15 bg-white/5 p-6 text-white" style={{ animationDelay: '120ms' }}>
+            <div className="text-sm font-semibold text-white">{t('common.noRetail')}</div>
+            <ul className="mt-4 space-y-2 text-sm text-white/80">
+              <li>• {t('common.fastDelivery')}</li>
+              <li>• {t('common.trustedQuality')}</li>
+              <li>• {t('common.directDealing')}</li>
+            </ul>
+          </div>
         </div>
-      </section>
+      </HeroSection>
 
       <section className="section">
         <Reveal>

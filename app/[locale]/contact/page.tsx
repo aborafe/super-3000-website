@@ -29,15 +29,13 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   return (
     <div className="space-y-12 pb-10">
       <section className="section">
-        <Reveal>
-          <div>
-            <div className="inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-2 text-xs font-semibold text-secondary">
-              {t('contact.noteB2B')}
-            </div>
-            <h1 className="mt-4 text-2xl font-semibold text-text md:text-3xl lg:text-4xl">{t('contact.title')}</h1>
-            <p className="mt-3 text-sm text-muted">{t('contact.subtitle')}</p>
+        <div>
+          <div className="fade-rise inline-flex items-center gap-2 rounded-full bg-secondary/10 px-4 py-2 text-xs font-semibold text-secondary">
+            {t('contact.noteB2B')}
           </div>
-        </Reveal>
+          <h1 className="mt-4 text-2xl font-semibold text-text md:text-3xl lg:text-4xl">{t('contact.title')}</h1>
+          <p className="mt-3 text-sm text-muted">{t('contact.subtitle')}</p>
+        </div>
       </section>
 
       <section className="section">

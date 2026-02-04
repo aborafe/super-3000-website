@@ -26,28 +26,28 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <div className="relative overflow-hidden rounded-3xl border border-border bg-primary text-white">
           <div className="hero-lines" aria-hidden="true" />
           <div className="relative p-6 sm:p-10">
-            <Reveal>
-              <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-white">
-                {t('common.wholesaleOnly')}
-              </div>
-            </Reveal>
-            <Reveal delay={60}>
-              <h1 className="mt-4 text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
-                {t('about.heroTitle')}
-              </h1>
-            </Reveal>
-            <Reveal delay={120}>
-              <p className="mt-3 max-w-3xl text-base text-white/80">{t('about.heroSubtitle')}</p>
-            </Reveal>
-            <Reveal delay={180}>
-              <div className="mt-6 grid gap-3 text-sm text-white/80 sm:grid-cols-2 lg:grid-cols-3">
-                {facts.map((item, index) => (
-                  <div key={index} className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-                    {item}
-                  </div>
-                ))}
-              </div>
-            </Reveal>
+            <div
+              className="fade-rise inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold text-white"
+              style={{ animationDelay: '0ms' }}
+            >
+              {t('common.wholesaleOnly')}
+            </div>
+            <h1 className="mt-4 text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
+              {t('about.heroTitle')}
+            </h1>
+            <p className="fade-rise mt-3 max-w-3xl text-base text-white/80" style={{ animationDelay: '120ms' }}>
+              {t('about.heroSubtitle')}
+            </p>
+            <div
+              className="fade-rise mt-6 grid gap-3 text-sm text-white/80 sm:grid-cols-2 lg:grid-cols-3"
+              style={{ animationDelay: '180ms' }}
+            >
+              {facts.map((item, index) => (
+                <div key={index} className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+                  {item}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
