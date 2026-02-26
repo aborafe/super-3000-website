@@ -21,7 +21,7 @@ npm run start
 Create `.env.local` based on `.env.example`:
 
 ```
-NEXT_PUBLIC_WHATSAPP_NUMBER=+2010XXXXXXX
+NEXT_PUBLIC_WHATSAPP_NUMBER=+0201018919997
 NEXT_PUBLIC_SITE_URL=https://example.com
 ```
 

@@ -12,7 +12,7 @@ export function getSiteUrl() {
 }
 
 export function getWhatsappNumber() {
-  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+2010XXXXXXX';
+  return process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+0201018919997';
 }
 
 export function getAddress(locale: Locale) {

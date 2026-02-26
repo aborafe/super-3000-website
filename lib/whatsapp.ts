@@ -1,7 +1,10 @@
 import { getWhatsappNumber } from './site';
 
 export function normalizeWhatsappNumber(value: string) {
-  return value.replace(/\D/g, '');
+  let digits = value.replace(/\D/g, '');
+  if (digits.startsWith('00')) digits = digits.slice(2);
+  if (digits.startsWith('020')) digits = `20${digits.slice(3)}`;
+  return digits;
 }
 
 export function buildWhatsappLink(message?: string, overrideNumber?: string) {

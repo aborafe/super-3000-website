@@ -6,13 +6,15 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Menu, X } from 'lucide-react';
 import type { Locale } from '@/i18n';
+import { siteEmail, getWhatsappNumber } from '@/lib/site';
+import { buildWhatsappLink, normalizeWhatsappNumber } from '@/lib/whatsapp';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useScrollShrink } from '@/hooks/useScrollShrink';
 
-const CONTACT_NUMBER = '201001512202+';
-const CONTACT_NUMBER_PLAIN = '201001512202';
-const CONTACT_EMAIL = 'super3000_oil@gmail.com';
-const WHATSAPP_LINK = `https://wa.me/${CONTACT_NUMBER_PLAIN}`;
+const CONTACT_NUMBER = getWhatsappNumber();
+const CONTACT_NUMBER_PLAIN = normalizeWhatsappNumber(CONTACT_NUMBER);
+const CONTACT_EMAIL = siteEmail;
+const WHATSAPP_LINK = buildWhatsappLink(undefined, CONTACT_NUMBER);
 
 const cx = (...classes: Array<string | false | null | undefined>) => classes.filter(Boolean).join(' ');
 
