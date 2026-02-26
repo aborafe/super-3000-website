@@ -11,6 +11,8 @@ import JsonLd from '@/components/JsonLd';
 import { getLocalBusinessSchema, getOrganizationSchema } from '@/lib/structured-data';
 import { resolveLocale } from '@/i18n';
 
+export const dynamic = 'force-static';
+
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
   weight: ['400', '600'],

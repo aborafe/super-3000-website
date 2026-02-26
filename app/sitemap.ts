@@ -3,6 +3,8 @@ import { getSiteUrl } from '@/lib/site';
 import products from '@/data/products.json';
 import type { Product } from '@/lib/types';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
   const productList = products as Product[];

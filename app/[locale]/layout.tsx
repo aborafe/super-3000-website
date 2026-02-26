@@ -1,6 +1,10 @@
 import type { ReactNode } from 'react';
 import { setRequestLocale } from 'next-intl/server';
-import { resolveLocale } from '@/i18n';
+import { locales, resolveLocale } from '@/i18n';
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
   children,
