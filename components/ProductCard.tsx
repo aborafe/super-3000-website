@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import type { Product } from '@/lib/types';
 import { buildWhatsappLink } from '@/lib/whatsapp';
+import { withBasePath } from '@/lib/site';
 
 function formatYears(years: number[]) {
   if (!years.length) return '';
@@ -31,7 +32,9 @@ export default function ProductCard({
     label: originLabels[variant.origin] || variant.origin,
     note: locale === 'ar' ? variant.note_ar : variant.note_en
   }));
-  const imageSrc = product.image && product.image.trim().length > 0 ? product.image : '/products/placeholder.png';
+  const imageSrc = withBasePath(
+    product.image && product.image.trim().length > 0 ? product.image : '/products/placeholder.png'
+  );
   const compat = product.compatibleCars
     .slice(0, 2)
     .map((car) => `${car.make} ${car.model} ${formatYears(car.years)}`)

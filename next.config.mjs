@@ -1,6 +1,7 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./i18n.ts');
+const BASE_PATH = '/super-3000-website';
 
 const nextConfig = {
   reactStrictMode: true,
@@ -13,10 +14,13 @@ const nextConfig = {
     unoptimized: true,
     formats: ['image/avif', 'image/webp']
   },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH
+  },
 
   // اسم الريبو عندك
-  basePath: "/super-3000-website",
-  assetPrefix: "/super-3000-website/"
+  basePath: BASE_PATH,
+  assetPrefix: `${BASE_PATH}/`
 };
 
 export default withNextIntl(nextConfig);

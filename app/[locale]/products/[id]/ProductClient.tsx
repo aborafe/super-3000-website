@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import type { Locale } from '@/i18n';
 import type { Product } from '@/lib/types';
 import { buildWhatsappLink } from '@/lib/whatsapp';
+import { withBasePath } from '@/lib/site';
 import Reveal from '@/components/Reveal';
 
 function formatYears(years: number[]) {
@@ -27,7 +28,9 @@ export default function ProductClient({
   const name = locale === 'ar' ? product.name_ar : product.name_en;
   const description = locale === 'ar' ? product.description_ar : product.description_en;
   const originLabels = t.raw('products.originLabels') as Record<string, string>;
-  const imageSrc = product.image && product.image.trim().length > 0 ? product.image : '/products/placeholder.png';
+  const imageSrc = withBasePath(
+    product.image && product.image.trim().length > 0 ? product.image : '/products/placeholder.png'
+  );
   const message =
     locale === 'ar'
       ? `طلب تاجر: ${name} - التصنيف: ${categoryName}`

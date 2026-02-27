@@ -1,8 +1,12 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { withBasePath } from '@/lib/site';
 
 export default function HeroSection({ children }: { children: ReactNode }) {
+  const heroPoster = withBasePath('/hero-poster.jpg');
+  const heroVideo = withBasePath('/super3000oil.mp4');
+
   return (
     <section className="hero-shell relative min-h-[80vh] overflow-hidden">
       <video
@@ -12,13 +16,13 @@ export default function HeroSection({ children }: { children: ReactNode }) {
         loop
         playsInline
         preload="metadata"
-        poster="/hero-poster.jpg"
-        src="/super3000oil.mp4"
+        poster={heroPoster}
+        src={heroVideo}
         aria-hidden="true"
         controls={false}
         disablePictureInPicture
       >
-        <source src="/super3000oil.mp4" type="video/mp4" />
+        <source src={heroVideo} type="video/mp4" />
       </video>
       <div
         className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-black/70 via-black/50 to-black/80"

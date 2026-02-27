@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Menu, X } from 'lucide-react';
 import type { Locale } from '@/i18n';
-import { siteEmail, getWhatsappNumber } from '@/lib/site';
+import { siteEmail, getWhatsappNumber, withBasePath } from '@/lib/site';
 import { buildWhatsappLink, normalizeWhatsappNumber } from '@/lib/whatsapp';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useScrollShrink } from '@/hooks/useScrollShrink';
@@ -15,6 +15,7 @@ const CONTACT_NUMBER = getWhatsappNumber();
 const CONTACT_NUMBER_PLAIN = normalizeWhatsappNumber(CONTACT_NUMBER);
 const CONTACT_EMAIL = siteEmail;
 const WHATSAPP_LINK = buildWhatsappLink(undefined, CONTACT_NUMBER);
+const LOGO_SRC = withBasePath('/logo.png');
 
 const cx = (...classes: Array<string | false | null | undefined>) => classes.filter(Boolean).join(' ');
 
@@ -89,7 +90,7 @@ export default function Header({ locale }: { locale: Locale }) {
       >
         <div className="flex items-center justify-between gap-4">
           <Link href={`/${locale}`} className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Super 3000 logo" width={44} height={44} />
+            <Image src={LOGO_SRC} alt="Super 3000 logo" width={44} height={44} />
             <div className="flex flex-col leading-tight">
               <div className="flex items-center gap-2 text-[1.05rem] font-semibold text-white">
                 <span>Super 3000</span>
